@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Michroma&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap");
+.header {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+.coffee-shop img {
+  background-size: cover;
+  width: 70%;
+  margin: 30px 220px;
+  border-radius: 20px;
+  min-width: 500px;
+}
+.description {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 60px;
+}
+.know-more {
+  text-align: center;
+  padding: 20px 20px;
+  padding-bottom: 70px;
+}
+.know-more span {
+  padding: 20px 30px;
+  background-color: #deb887;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+}
+.know-more span:hover {
+  background-color: #cd853f;
+  cursor: pointer;
+}
