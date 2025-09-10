@@ -25,7 +25,7 @@ const Navbar = () => {
           </a>
         </div>
         {/*Desktop Menu*/}
-        <ul className={`nav-menu ${isOpen ? "open" : ""}`}>
+        <ul className={`nav-menu ${isOpen ? "active" : ""}`}>
           <a
             href="about-us"
             onClick={() => {
@@ -46,17 +46,6 @@ const Navbar = () => {
             className={menu === "menu" ? "active" : ""}
           >
             OUR MENU
-          </a>
-
-          <a
-            href="download"
-            onClick={() => {
-              setMenu("download");
-              setIsOpen(false);
-            }}
-            className={menu === "download" ? "active" : ""}
-          >
-            DOWNLOAD APP
           </a>
 
           <a
