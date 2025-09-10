@@ -1,7 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Michroma&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap");
 .footer-container {
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 170px;
   background-color: #deb887;
+  font-family: "Outfit", sans-serif;
+}
+.footer-left,
+.footer-right {
+  flex: 1;
 }
 .footer-left img {
-  width: 85px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.footer-left h1 {
+  color: #8b4513;
+  margin-bottom: 50px;
+}
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 300px;
+}
+.footer-right ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/*Responsive styles*/
+
+/*Tablet screens*/
+@media (max-width: 1024px) {
+  .footer-container {
+    padding: 60px 80px; /*reduce padding*/
+  }
+
+  .footer-right ul {
+    margin-left: 100px; /*reduced margin*/
+  }
+}
+
+/*Mobile screens */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /*stack vertically*/
+    align-items: center; /*center content*/
+    padding: 40px 20px; /*smaller padding*/
+    text-align: center;
+  }
+
+  .footer-right ul {
+    margin-left: 0; /*reset margin */
+    margin-top: 20px; /*add spacing */
+  }
 }

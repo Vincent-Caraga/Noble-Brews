@@ -13,13 +13,17 @@
   list-style: none;
   gap: 50px;
 }
-.nav-menu li {
+.nav-menu a {
   padding: 10px 0;
   margin-right: 20px;
   font-size: 1.2rem;
   font-family: "Outfit", sans-serif;
 }
-.nav-menu li:hover {
+.nav-menu ul a {
+  list-style: none;
+  text-decoration: none;
+}
+.nav-menu a:hover {
   color: white;
   cursor: pointer;
 }

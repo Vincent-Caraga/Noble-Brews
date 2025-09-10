@@ -45,3 +45,20 @@ img {
 .product-container #sixth-box img {
   border-radius: 10px;
 }
+
+/*Responsive adjustments*/
+@media (max-width: 1024px) {
+  .product-container {
+    grid-template-columns: 1fr 1fr; /*2 columns on tablets*/
+  }
+}
+
+@media (max-width: 768px) {
+  .product-container {
+    grid-template-columns: 1fr; /*1 column on mobile*/
+  }
+
+  .products {
+    padding: 40px; /*smaller padding*/
+  }
+}
