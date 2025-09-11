@@ -1,66 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../assets/CSS/Navbar.css";
 import { assets } from "../../assets/assets";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
   const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
     <>
       <nav className="navbar">
         <div className="logo">
-          <a
-            href="/"
-            onClick={() => {
-              setMenu("");
-              setIsOpen(false);
-            }}
-          >
-            <img src={assets.logo} alt="" />
-          </a>
+          <Link to="/" onClick={() => setIsOpen(false)}>
+            <img src={assets.logo} alt="the noble-brews logo" />
+          </Link>
         </div>
-        {/*Desktop Menu*/}
-        <ul className={`nav-menu ${isOpen ? "active" : ""}`}>
-          <a
-            href="about-us"
-            onClick={() => {
-              setMenu("about-us");
-              setIsOpen(false);
-            }}
-            className={menu === "about-us" ? "active" : ""}
-          >
-            ABOUT-US
-          </a>
 
-          <a
-            href="menu"
-            onClick={() => {
-              setMenu("menu");
-              setIsOpen(false);
-            }}
-            className={menu === "menu" ? "active" : ""}
-          >
+        <div className={`nav-links ${isOpen ? "open" : ""}`}>
+          <Link to="/about-us" onClick={() => setIsOpen(false)}>
+            ABOUT US
+          </Link>
+
+          <a href="/our-menu" onClick={() => setIsOpen(false)}>
             OUR MENU
           </a>
-
-          <a
-            href="news"
-            onClick={() => {
-              setMenu("news");
-              setIsOpen(false);
-            }}
-            className={menu === "news" ? "active" : ""}
-          >
+          <a href="#news" onClick={() => setIsOpen(false)}>
             NOBLE BREWS NEWS
           </a>
-        </ul>
-        {/* Hamburger Icon*/}
-        <div className="hamburger" onClick={toggleMenu}>
+        </div>
+
+        <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </div>
       </nav>

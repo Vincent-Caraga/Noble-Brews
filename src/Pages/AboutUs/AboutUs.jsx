@@ -1,9 +1,10 @@
 import React from "react";
+import { assets } from "../../assets/assets";
 
 const AboutUs = () => {
   return (
-    <div className="about-container" id="about-us">
-      <h1>Test About Us</h1>
+    <div>
+      <img src={assets.logo} alt="" />
     </div>
   );
 };
