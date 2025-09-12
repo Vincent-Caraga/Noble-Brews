@@ -1,27 +1,21 @@
 import React from "react";
 import { food_list } from "../../assets/menu_list";
+import "../../assets/CSS/FoodDisplay.css";
 
 const FoodDisplay = ({ category }) => {
   return (
     <div className="food-display" id="food-display">
-      <h2 className="text-xl font-semibold mb-4">Best-Seller food</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <h2>{category === "All" ? "Best-Seller Food" : category}</h2>
+      <div>
         {food_list
-          .filter((item) => item.category === category)
+          .filter((item) => category === "All" || item.category === category)
           .map((food) => (
-            <div
-              key={food._id}
-              className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition"
-            >
-              <img
-                src={food.image}
-                alt={food.name}
-                className="w-full h-40 object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-lg font-medium">{food.name}</h3>
-                <p className="text-sm text-gray-500">{food.description}</p>
-                <p className="mt-2 font-semibold">₱{food.price}</p>
+            <div className="card" key={food._id}>
+              <img src={food.image} alt={food.name} />
+              <div className="card-details">
+                <h3>{food.name}</h3>
+                <p>{food.description}</p>
+                <p className="price">₱{food.price}</p>
               </div>
             </div>
           ))}
