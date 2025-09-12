@@ -21,9 +21,10 @@ const Navbar = () => {
             ABOUT US
           </Link>
 
-          <a href="/our-menu" onClick={() => setIsOpen(false)}>
+          <Link to="/our-menu" onClick={() => setIsOpen(false)}>
             OUR MENU
-          </a>
+          </Link>
+
           <a href="#news" onClick={() => setIsOpen(false)}>
             NOBLE BREWS NEWS
           </a>
