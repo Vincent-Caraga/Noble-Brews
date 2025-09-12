@@ -42,7 +42,7 @@ import food_32 from "./food_32.jpg";
 
 export const menu_list = [
   {
-    menu_name: "Brewed Coffee",
+    menu_name: "Coffee",
     menu_image: menu_1,
   },
   {
@@ -83,7 +83,7 @@ export const food_list = [
     price: 150,
     description:
       "Hot brewed coffee has a rounded flavor, a satisfying aroma, a gentle sweetness",
-    category: "Brewed Coffee",
+    category: "Coffee",
   },
   {
     _id: "2",
@@ -92,7 +92,7 @@ export const food_list = [
     price: 170,
     description:
       "Cold brewed coffee has a rounded flavor, a satisfying aroma, a gentle sweetness",
-    category: "Brewed Coffee",
+    category: "Coffee",
   },
   {
     _id: "3",
@@ -101,7 +101,7 @@ export const food_list = [
     price: 170,
     description:
       "Cold brewed coffee has a rounded flavor, a satisfying aroma, a gentle sweetness",
-    category: "Brewed Coffee",
+    category: "Coffee",
   },
   {
     _id: "4",
@@ -110,7 +110,7 @@ export const food_list = [
     price: 190,
     description:
       "Cold brewed coffee has a rounded flavor, a satisfying aroma, a gentle sweetness",
-    category: "Brewed Coffee",
+    category: "Coffee",
   },
   {
     _id: "5",

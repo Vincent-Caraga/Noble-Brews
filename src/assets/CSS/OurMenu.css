@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Michroma&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap");
 .explore-menu {
+  margin: 5px 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: "Outfit", sans-serif;
 } /*For menu list*/
 .explore-menu h1 {
   margin-top: 50px;
