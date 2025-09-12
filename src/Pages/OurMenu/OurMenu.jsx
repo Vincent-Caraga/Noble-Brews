@@ -2,6 +2,7 @@ import React from "react";
 import { menu_list } from "../../assets/menu_list";
 import "../../assets/CSS/OurMenu.css";
 import { useState } from "react";
+import FoodDisplay from "../FoodDisplay/FoodDisplay";
 
 const OurMenu = () => {
   const [category, setCategory] = useState("All");
@@ -38,6 +39,9 @@ const OurMenu = () => {
         })}
       </div>
       <hr />
+
+      {/* Add FoodDisplay here */}
+      <FoodDisplay category={category} />
     </div>
   );
 };
