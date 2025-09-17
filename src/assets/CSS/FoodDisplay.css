@@ -1,3 +1,4 @@
+/* Mobile Responsive */
 .food-display {
   padding: 0 15px;
   /* Use grid to create the card layout */
@@ -42,10 +43,10 @@
   font-weight: bolder;
 }
 
-/* Mobile adjustments for a single column layout */
-@media (max-width: 600px) {
+/* Desktop Responsive */
+@media (min-width: 1024px) {
   .food-display {
-    /* On smaller screens, the grid will display a single column */
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
