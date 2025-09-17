@@ -36,6 +36,7 @@
 .logo-carousel img {
   height: 50px;
   margin: 0 15px;
+  margin-bottom: 40px;
 }
 @keyframes scroll-left {
   from {
@@ -51,6 +52,7 @@
   .logo-carousel img {
     height: 40px;
     margin: 0 25px;
+    margin-bottom: 40px;
   }
 }
 
@@ -59,6 +61,7 @@
   .logo-carousel img {
     height: 100px;
     margin: 0 40px;
+    margin-bottom: 40px;
   }
   .logo-carousel {
     animation: scroll-left 20s linear-infinite;
