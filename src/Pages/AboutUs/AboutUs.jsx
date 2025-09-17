@@ -31,7 +31,21 @@ const AboutUs = () => {
 
       <div className="mission_container">
         <img src={assets.mission} alt="" />
-        <div className="mission_text"></div>
+      </div>
+
+      <div className="logo-carousel-container">
+        <h2>FEATURED ON</h2>
+        <div className="logo-carousel">
+          <img src={assets.booky} alt="booky logo" />
+          <img src={assets.manila} alt="when in manila logo" />
+          <img src={assets.manila_bulletin} alt="manila bulletin logo" />
+          <img src={assets.preview} alt="preview logo" />
+          <img src={assets.spot} alt="spot ph logo" />
+          <img src={assets.taste_atlas} alt="taste atlas logo" />
+          <img src={assets.yummy} alt="yummy logo" />
+          <img src={assets.daily} alt="daily inquirer logo" />
+          <img src={assets.businessmirror} alt="bm logo" />
+        </div>
       </div>
     </>
   );

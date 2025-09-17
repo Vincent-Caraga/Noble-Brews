@@ -7,6 +7,15 @@ import cups from "./cups.jpg";
 import banner from "./banner.png";
 import open_video from "./open_video.mp4";
 import mission from "./mission.png";
+import booky from "./booky.jpg";
+import manila from "./manila.png";
+import manila_bulletin from "./manila_bulletin.png";
+import preview from "./preview.png";
+import spot from "./spot.jpg";
+import taste_atlas from "./taste_atlas.png";
+import yummy from "./yummy.jpg";
+import daily from "./daily.jpg";
+import businessmirror from "./businessmirror.jpg";
 
 export const assets = {
   logo,
@@ -18,4 +27,13 @@ export const assets = {
   banner,
   open_video,
   mission,
+  booky,
+  manila,
+  manila_bulletin,
+  preview,
+  spot,
+  taste_atlas,
+  yummy,
+  daily,
+  businessmirror,
 };

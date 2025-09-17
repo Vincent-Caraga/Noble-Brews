@@ -15,15 +15,52 @@
 .mission_container {
   display: inline-block;
 }
-.mission_image {
-  display: block;
-  width: 100%;
-  height: auto;
+.logo-carousel-container {
+  overflow: hidden;
+  position: relative;
 }
-.mission_container {
-  display: block;
+.logo-carousel-container h2 {
+  padding: 20px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  color: #deb887;
+  font-weight: 900;
+}
+.logo-carousel {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+  padding: 40px;
+}
+.logo-carousel img {
+  height: 50px;
+  margin: 0 15px;
+}
+@keyframes scroll-left {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateX(-90%);
+  }
 }
 
-.mission-text {
-  padding: 10px;
+/* Tablet screens */
+@media (min-width: 600px) {
+  .logo-carousel img {
+    height: 40px;
+    margin: 0 25px;
+  }
+}
+
+/* Desktop screens */
+@media (min-width: 1024px) {
+  .logo-carousel img {
+    height: 100px;
+    margin: 0 40px;
+  }
+  .logo-carousel {
+    animation: scroll-left 20s linear-infinite;
+  }
 }
