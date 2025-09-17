@@ -6,6 +6,7 @@ import arabica from "./arabica.jpg";
 import cups from "./cups.jpg";
 import banner from "./banner.png";
 import open_video from "./open_video.mp4";
+import mission from "./mission.png";
 
 export const assets = {
   logo,
@@ -16,4 +17,5 @@ export const assets = {
   cups,
   banner,
   open_video,
+  mission,
 };

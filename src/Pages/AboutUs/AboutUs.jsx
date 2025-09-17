@@ -28,6 +28,11 @@ const AboutUs = () => {
           style={{ display: "block" }}
         />
       </div>
+
+      <div className="mission_container">
+        <img src={assets.mission} alt="" />
+        <div className="mission_text"></div>
+      </div>
     </>
   );
 };
