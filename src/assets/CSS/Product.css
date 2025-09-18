@@ -62,3 +62,10 @@ img {
     padding: 40px; /*smaller padding*/
   }
 }
+
+@media (max-width: 320px) {
+  .product-container {
+    grid-template-columns: 1fr;
+    margin: 0 -25px;
+  }
+}
