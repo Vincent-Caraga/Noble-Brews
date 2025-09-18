@@ -1,13 +1,22 @@
 /* Mobile Responsive */
 .food-display {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0 15px;
-  /* Use grid to create the card layout */
+}
+
+.food-display h2 {
+  margin-bottom: 1rem;
+}
+
+/* Grid container for cards */
+.food-grid {
   display: grid;
-  gap: 20px; /* Space between the grid items (cards) */
-  /* This creates a responsive grid that will automatically adjust the number of columns */
+  gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+/* Card styling */
 .card {
   background: #fff;
   border-radius: 10px;
@@ -16,9 +25,17 @@
   text-align: center;
   margin-bottom: 30px;
   transition: transform 0.2s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s ease;
   /* These properties are not needed in the card now that the parent is a grid container */
   /* display: flex; 
   flex-direction: column; */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  z-index: 10;
 }
 .card img {
   width: 100%;
@@ -26,27 +43,45 @@
   object-fit: cover; /* Ensures the image fills the container without distortion */
 }
 .card-details {
-  padding: 10px;
+  padding: 12px;
+  text-align: left;
 }
 .card-details h3 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   margin: 8px 0 4px;
   color: #333;
 }
 .card-details p {
-  font-size: 17px;
+  font-size: 0.9rem;
   color: #555;
   margin: 0;
 }
 .card-details .price {
   font-weight: bolder;
+  margin-top: 6px;
 }
 
 /* Desktop Responsive */
+@media (min-width: 768px) {
+  .food-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    z-index: 10;
+  }
+  .card img {
+    height: 220px;
+  }
+}
+
 @media (min-width: 1024px) {
-  .food-display {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  .food-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    z-index: 10;
   }
 }

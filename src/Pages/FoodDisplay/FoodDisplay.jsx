@@ -6,7 +6,7 @@ const FoodDisplay = ({ category }) => {
   return (
     <div className="food-display" id="food-display">
       <h2>{category === "All" ? "Best-Seller Food" : category}</h2>
-      <div>
+      <div className="food-grid">
         {food_list
           .filter((item) => category === "All" || item.category === category)
           .map((food) => (
