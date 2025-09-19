@@ -15,7 +15,9 @@ const Header = () => {
         </p>
       </div>
       <div className="know-more">
-        <span>KNOW MORE</span>
+        <a href="/about-us">
+          <span>KNOW MORE</span>
+        </a>
       </div>
     </section>
   );

@@ -91,7 +91,7 @@ export const food_list = [
     image: food_2,
     price: 170,
     description:
-      "Cold brewed coffee has a rounded flavor, a satisfying aroma, a gentle sweetness",
+      "Infused with nitrogen for a silky texture and creamy finish—naturally sweet, low in acidity, and refreshingly bold. Served cold, straight from the tap.",
     category: "Coffee",
   },
   {
@@ -100,7 +100,7 @@ export const food_list = [
     image: food_3,
     price: 170,
     description:
-      "Cold brewed coffee has a rounded flavor, a satisfying aroma, a gentle sweetness",
+      "Slow-steeped for 18 hours to unlock a smooth, mellow flavor with natural sweetness and low acidity. A refreshing pick-me-up that’s bold, balanced, and easy on the palate.",
     category: "Coffee",
   },
   {
@@ -109,7 +109,7 @@ export const food_list = [
     image: food_4,
     price: 190,
     description:
-      "Cold brewed coffee has a rounded flavor, a satisfying aroma, a gentle sweetness",
+      "A smooth blend of rich vanilla and creamy sweetness—comforting, mellow, and irresistibly indulgent.",
     category: "Coffee",
   },
   {
@@ -127,7 +127,7 @@ export const food_list = [
     image: food_6,
     price: 205,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A cozy blend of freshly brewed coffee and steamed milk in perfect harmony—smooth, mellow, and effortlessly comforting.",
     category: "Espresso",
   },
   {
@@ -136,7 +136,7 @@ export const food_list = [
     image: food_7,
     price: 210,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A bold shot of espresso “marked” with a touch of steamed milk—intense, aromatic, and elegantly simple.",
     category: "Espresso",
   },
   {
@@ -145,7 +145,7 @@ export const food_list = [
     image: food_8,
     price: 203,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A rich double shot of espresso topped with velvety steamed milk and a thin layer of microfoam—bold, creamy, and perfectly balanced.",
     category: "Espresso",
   },
   {
@@ -154,7 +154,7 @@ export const food_list = [
     image: food_9,
     price: 215,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "Chilled and bold—classic brewed coffee poured over ice for a clean, invigorating taste. Simple, timeless, and perfect for warm days.",
     category: "Chocolate",
   },
   {
@@ -163,7 +163,7 @@ export const food_list = [
     image: food_10,
     price: 220,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A rich, velvety blend of premium espresso and steamed milk, topped with a swirl of chocolate and a hint of sweetness.",
     category: "Chocolate",
   },
   {
@@ -172,7 +172,7 @@ export const food_list = [
     image: food_11,
     price: 185,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A refreshing twist on the classic—bold espresso blended with chilled milk and silky microfoam, served over ice for a smooth, velvety finish.",
     category: "Chocolate",
   },
   {
@@ -181,7 +181,7 @@ export const food_list = [
     image: food_12,
     price: 220,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A chilled fusion of rich espresso and velvety milk, layered with decadent chocolate and a touch of sweetness.",
     category: "Chocolate",
   },
   {
@@ -190,7 +190,7 @@ export const food_list = [
     image: food_13,
     price: 208,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A luscious blend of rich chocolate and velvety cream—decadent, smooth, and delightfully indulgent.",
     category: "Frappuccino",
   },
   {
@@ -199,7 +199,7 @@ export const food_list = [
     image: food_14,
     price: 220,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A creamy delight swirled with rich chocolate and studded with crunchy chips—smooth, sweet, and satisfyingly indulgent.",
     category: "Frappuccino",
   },
   {
@@ -208,7 +208,7 @@ export const food_list = [
     image: food_15,
     price: 200,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A creamy, spiced blend of black tea and exotic chai flavors, whipped into a frosty delight—cool, comforting, and full of aromatic warmth",
     category: "Frappuccino",
   },
   {
@@ -217,7 +217,7 @@ export const food_list = [
     image: food_16,
     price: 215,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A creamy, caramel-swirled blend of milk and ice—smooth, sweet, and topped with whipped cream for a buttery finish.",
     category: "Frappuccino",
   },
   {
@@ -226,7 +226,7 @@ export const food_list = [
     image: food_17,
     price: 30,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "Soft, fluffy doughnuts coated in a sweet, glossy glaze—classic, melt-in-your-mouth indulgence with every bite.",
     category: "Doughnuts",
   },
   {
@@ -235,7 +235,7 @@ export const food_list = [
     image: food_18,
     price: 40,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A soft bite donut dipped in silky white chocolate and topped with roasted almond slices—creamy, nutty, and irresistibly elegant.",
     category: "Doughnuts",
   },
   {
@@ -244,7 +244,7 @@ export const food_list = [
     image: food_19,
     price: 40,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A hazelnut-flavored donut dipped in rich chocolate and topped with crisp, chocolate-coated wafer pearls—decadent, crunchy, and made for chocolate lovers.",
     category: "Doughnuts",
   },
   {
@@ -253,7 +253,7 @@ export const food_list = [
     image: food_20,
     price: 45,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A soft, golden donut dipped in rich white chocolate and topped with roasted almonds—nutty, creamy, and irresistibly crunchy in every bite.",
     category: "Doughnuts",
   },
   {

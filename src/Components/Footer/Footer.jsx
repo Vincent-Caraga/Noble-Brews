@@ -9,6 +9,8 @@ const Footer = () => {
         <img src={assets.logo} alt="" />
         <h1>THE NOBLE BREWS</h1>
         <h2>GET OUR BEST COFFEE NOW</h2>
+        <img className="socmed" src={assets.facebook} alt="facebook" />
+        <img className="socmed" src={assets.instagram} alt="instagram" />
       </div>
 
       <div className="footer-right">

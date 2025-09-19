@@ -16,6 +16,8 @@ import taste_atlas from "./taste_atlas.png";
 import yummy from "./yummy.jpg";
 import daily from "./daily.jpg";
 import businessmirror from "./businessmirror.jpg";
+import facebook from "./facebook.png";
+import instagram from "./instagram.png";
 
 export const assets = {
   logo,
@@ -36,4 +38,6 @@ export const assets = {
   yummy,
   daily,
   businessmirror,
+  facebook,
+  instagram,
 };

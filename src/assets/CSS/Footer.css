@@ -16,6 +16,12 @@
   height: 100px;
   margin-bottom: 20px;
 }
+.footer-left .socmed {
+  padding: 20px 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
 .footer-left h1 {
   color: #8b4513;
   margin-bottom: 50px;
