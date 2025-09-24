@@ -262,7 +262,7 @@ export const food_list = [
     image: food_21,
     price: 60,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A pepperoni pizza is a classic American pizza topped with spicy salami, cheese, and a tomato base.",
     category: "Pizza",
   },
   {
@@ -271,7 +271,7 @@ export const food_list = [
     image: food_22,
     price: 58,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A Hawaiian pizza is a controversial pizza topped with ham and pineapple.",
     category: "Pizza",
   },
   {
@@ -280,7 +280,7 @@ export const food_list = [
     image: food_23,
     price: 65,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A cheese pizza is a simple yet classic pizza topped with a layer of tomato sauce and melted cheese.",
     category: "Pizza",
   },
   {
@@ -289,7 +289,7 @@ export const food_list = [
     image: food_24,
     price: 62,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A BBQ chicken pizza is a popular pizza that uses a barbecue sauce base instead of tomato sauce, typically topped with grilled chicken, onions, and cheese.",
     category: "Pizza",
   },
   {
@@ -298,7 +298,7 @@ export const food_list = [
     image: food_25,
     price: 40,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A chocolate chip is a small, sweetened piece of chocolate, often used as an ingredient in baked goods like cookies and muffins.",
     category: "Pastries",
   },
   {
@@ -307,7 +307,7 @@ export const food_list = [
     image: food_26,
     price: 35,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A butter croissant is a flaky, crescent-shaped French pastry made from a layered, yeast-leavened dough that is generously laminated with butter.",
     category: "Pastries",
   },
   {
@@ -316,7 +316,7 @@ export const food_list = [
     image: food_27,
     price: 45,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A cinnamon roll is a sweet, baked pastry made from a rolled dough with a filling of cinnamon and sugar, often topped with a cream cheese or sugar glaze.",
     category: "Pastries",
   },
   {
@@ -325,7 +325,7 @@ export const food_list = [
     image: food_28,
     price: 50,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A coffee cake is a moist and tender cake, often with a crumb topping or a swirled cinnamon filling, traditionally served alongside coffee or for breakfast.",
     category: "Pastries",
   },
   {
@@ -334,7 +334,7 @@ export const food_list = [
     image: food_29,
     price: 70,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A red velvet cake is a moist and tender cake with a signature deep red color and a mild cocoa flavor, traditionally topped with a tangy cream cheese frosting.",
     category: "Cakes",
   },
   {
@@ -343,7 +343,7 @@ export const food_list = [
     image: food_30,
     price: 80,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A tiramisu cake is a rich and elegant Italian dessert made with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa powder.",
     category: "Cakes",
   },
   {
@@ -352,7 +352,7 @@ export const food_list = [
     image: food_31,
     price: 70,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A vanilla cake is a light and airy cake that gets its flavor from vanilla extract, serving as a versatile base for various frostings and fillings.",
     category: "Cakes",
   },
   {
@@ -361,7 +361,7 @@ export const food_list = [
     image: food_32,
     price: 65,
     description:
-      "Food provides essential nutrients for overall health and well-being",
+      "A chocolate cake is a rich and decadent cake that gets its flavor from cocoa powder or melted chocolate, often paired with a complementary frosting.",
     category: "Cakes",
   },
 ];

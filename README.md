@@ -1,12 +1,44 @@
-# React + Vite
+# The Noble Brews Coffee Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Noble Brews Coffee Shop is a modern coffee shop dedicated to providing a high-quality coffee experience. Our mission is to roast and brew exceptional coffee beans, sourced ethically from around the world, and serve them in a welcoming and comfortable environment. We believe that every cup tells a story, and we are committed to sharing those stories with our customers.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+About Us: Learn about our story, our passion for coffee, and our commitment to ethical sourcing and community.
 
-## Expanding the ESLint configuration
+Our Menu: Explore our diverse range of coffee beverages, from classic espresso drinks to unique signature lattes, along with our selection of pastries and light bites.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ethical Sourcing: We partner with farms and co-ops that practice sustainable and ethical farming methods, ensuring fair wages and environmental responsibility.
+
+Artisanal Roasting: Our beans are roasted in-house in small batches to highlight their unique flavors and aromas.
+
+Community Hub: Our space is designed to be a comfortable gathering place for the community, whether for work, a casual meeting, or a moment of relaxation.
+
+## How to Get Started
+
+For Customers
+Visit our shop at [Insert Address Here] or visit our website https://noble-brews.vercel.app/
+
+For Developers
+This repository contains the code for our website. To get started, follow these steps:
+
+Clone the repository:
+git clone https://github.com/Vincent-Caraga/Noble-Brews
+
+Install dependencies:
+npm install
+
+Run the development server:
+npm start
+
+### Contributing
+
+We welcome contributions from the community. If you find a bug or have a suggestion, please open an issue or submit a pull request.
+
+### Contact
+
+Please contact me at:
+
+Email: vincentccaraga@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/vincentcaraga/
