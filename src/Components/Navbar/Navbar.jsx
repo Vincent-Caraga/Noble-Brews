@@ -24,10 +24,6 @@ const Navbar = () => {
           <Link to="/our-menu" onClick={() => setIsOpen(false)}>
             OUR MENU
           </Link>
-
-          <a href="#news" onClick={() => setIsOpen(false)}>
-            NOBLE BREWS NEWS
-          </a>
         </div>
 
         <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>

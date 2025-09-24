@@ -38,8 +38,8 @@
 
 /*Responsive styles*/
 
-/*Tablet screens*/
-@media (max-width: 1024px) {
+/*Mobile screens*/
+@media (max-width: 375px) {
   .footer-container {
     padding: 60px 80px; /*reduce padding*/
   }
@@ -49,7 +49,7 @@
   }
 }
 
-/*Mobile screens */
+/*Tablet screens */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column; /*stack vertically*/

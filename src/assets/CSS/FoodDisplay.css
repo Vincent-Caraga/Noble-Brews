@@ -28,9 +28,6 @@
   position: relative;
   z-index: 1;
   transition: transform 0.2s ease;
-  /* These properties are not needed in the card now that the parent is a grid container */
-  /* display: flex; 
-  flex-direction: column; */
 }
 
 .card:hover {
@@ -62,7 +59,7 @@
   margin-top: 6px;
 }
 
-/* Desktop Responsive */
+/* Tablet Responsive */
 @media (min-width: 768px) {
   .food-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -76,6 +73,7 @@
   }
 }
 
+/* Desktop Responsive */
 @media (min-width: 1024px) {
   .food-grid {
     grid-template-columns: repeat(3, 1fr);

@@ -16,10 +16,10 @@ Community Hub: Our space is designed to be a comfortable gathering place for the
 
 ## How to Get Started
 
-For Customers
+For Customers:
 Visit our shop at [Insert Address Here] or visit our website https://noble-brews.vercel.app/
 
-For Developers
+For Developers:
 This repository contains the code for our website. To get started, follow these steps:
 
 Clone the repository:

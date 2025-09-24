@@ -74,8 +74,8 @@
 
 /*Responsive Styles*/
 
-/*Tablet*/
-@media (max-width: 1024px) {
+/* Mobile screens */
+@media (max-width: 320px) {
   .nav-menu {
     gap: 25px; /*smaller gap*/
   }
@@ -90,7 +90,7 @@
   cursor: pointer;
 }
 
-/*Mobile*/
+/* Tablet screens */
 @media (max-width: 768px) {
   .navbar {
     padding: 15px 20px;
