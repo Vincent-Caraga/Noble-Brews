@@ -47,12 +47,6 @@ img {
 }
 
 /*Responsive adjustments*/
-/* Desktop screens */
-@media (max-width: 1024px) {
-  .product-container {
-    grid-template-columns: 1fr 1fr; /*2 columns on desktop*/
-  }
-}
 
 /* Tablet screens */
 @media (max-width: 768px) {
@@ -62,13 +56,5 @@ img {
 
   .products {
     padding: 40px; /*smaller padding*/
-  }
-}
-
-/* Mobile screens */
-@media (max-width: 320px) {
-  .product-container {
-    grid-template-columns: 1fr;
-    margin: 0 -25px;
   }
 }
